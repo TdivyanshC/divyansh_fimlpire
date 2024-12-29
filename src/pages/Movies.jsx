@@ -2,7 +2,6 @@ import { Box, CircularProgress,  Typography, useMediaQuery } from "@mui/material
 import { useSelector } from "react-redux";
 import { useGetMoviesQuery } from "../services/TMBD";
 import MovieList from "../components/MovieList/MovieList";
-import { selectGenreOrCategory } from "../features/currentGenreOrCategory";
 import { useState } from "react";
 import Pagination from "../components/pagination/Pagination";
 import FeaturedMovie from "../components/FeaturedMovie.jsx/FeaturedMovie";
